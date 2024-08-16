@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="editor">
+        <div class="toolbar">
+            <label for="font-select">Font:</label>
+            <select id="font-select"></select>
+            <label for="color-select">Text Color:</label>
+            <select id="color-select"></select>
+            <label for="font-size-select">Font Size:</label>
+            <select id="font-size-select"></select>
+            <button onclick="toggleBold()">Bold</button>
+            <button onclick="toggleItalic()">Italic</button>
+            <button onclick="resetText()">Reset</button>
+            <button onclick="saveText()">Save</button>
+        </div>
+        <div class="editor-container" contenteditable="true" id="editor-container"></div>
+    </div>
+    <div class="saved-documents">
+        <h2>Saved Documents</h2>
+        <ul id="document-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

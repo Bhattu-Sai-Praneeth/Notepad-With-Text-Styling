@@ -1,0 +1,62 @@
+body {
+    background-color: #ADD8E6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.editor {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.editor .toolbar {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.editor .toolbar button {
+    margin-right: 10px;
+}
+
+.editor-container {
+    width: 100%;
+    min-height: 400px;
+    border: 1px solid #000;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    overflow-y: scroll;
+}
+
+.saved-documents {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.saved-documents h2 {
+    font-size: 20px;
+}
+
+.saved-documents ul {
+    list-style: none;
+    padding: 0;
+}
+
+.saved-documents ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.saved-documents ul li button {
+    background: #008CBA;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
